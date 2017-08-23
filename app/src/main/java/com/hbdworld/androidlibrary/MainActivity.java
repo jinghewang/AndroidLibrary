@@ -86,12 +86,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-
-        Bundle bundle = data.getExtras();
-        String s = bundle.getString("result");
-        authCode.setText(s);
-        String x = s.toLowerCase();
+        if (data != null){
+            Bundle bundle = data.getExtras();
+            String s = bundle.getString("result");
+            authCode.setText(s);
+        }
     }
-
-
 }

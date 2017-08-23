@@ -85,4 +85,16 @@ public class ScanActivity extends Activity {
 		qd.onDestroy();
 		super.onDestroy();
 	}
+
+	@Override
+	public void onBackPressed() {
+		//数据是使用Intent返回
+		Intent intent = new Intent();
+		//把返回数据存入Intent
+		intent.putExtra("result", "");
+		//设置返回数据
+		this.setResult(RESULT_OK, intent);
+		//关闭Activity
+		this.finish();
+	}
 }
