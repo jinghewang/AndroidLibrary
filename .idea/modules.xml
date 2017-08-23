@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidLibrary.iml" filepath="$PROJECT_DIR$/AndroidLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxingencode/zxingencode.iml" filepath="$PROJECT_DIR$/zxingencode/zxingencode.iml" />
     </modules>
   </component>
 </project>
