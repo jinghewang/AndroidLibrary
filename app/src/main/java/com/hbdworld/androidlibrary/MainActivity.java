@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             }else{
                 Toast.makeText(this,"文本信息不能为空！",Toast.LENGTH_SHORT).show();
             }
-        } catch (Exception e) {
+        } catch (WriterException e) {
             e.printStackTrace();
         }
     }

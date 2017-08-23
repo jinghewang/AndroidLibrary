@@ -27,5 +27,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
-    compile project(':zxingencode')
+    compile files('libs/core-3.0.0.jar')
+    compile files('libs/zxingdecode.jar')
+    compile files('libs/zxingencode.jar')
 }
