@@ -4,9 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
-
     <LinearLayout
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -29,6 +28,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -46,15 +46,15 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:onClick="eventCreate"
-            android:visibility="gone"
-            android:text="Create" />
-
-        <Button
-            android:layout_weight="0"
-            android:layout_width="80dp"
-            android:layout_height="wrap_content"
-            android:onClick="eventCreate2"
             android:text="Create" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/QrCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:src="@mipmap/ic_launcher"/>
 
 </LinearLayout>
